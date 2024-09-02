@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link rel="stylesheet" href="form-styles.css">
+</head>
+<body>
+    <form action="#" id="inputForm" onsubmit="">
+        <label for="name">
+            Name : 
+        </label>
+        <input type="text" id="name" name="name"/>
+        <label for="name">
+            Email : 
+        </label>
+        <input type="email" id="email" name="email"/>
+        <label for="name">
+            Message : 
+        </label>
+      <textarea name="message" id="message"></textarea>
+      <p class="error"></p>
+      <button type="submit">Submit</button>
+    </form>
+    <script>
+        let input = document.getElementById("name");
+        console.log(input.value)
+        
+        
+        
+    </script>
+</body>
+</html>
